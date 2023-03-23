@@ -1,0 +1,192 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "address"
+        },
+        {
+            "id": "famsize"
+        },
+        {
+            "id": "Pstatus"
+        },
+        {
+            "id": "Medu"
+        },
+        {
+            "id": "Fedu"
+        },
+        {
+            "id": "traveltime"
+        },
+        {
+            "id": "studytime"
+        },
+        {
+            "id": "failures"
+        },
+        {
+            "id": "schoolsup"
+        },
+        {
+            "id": "famsup"
+        },
+        {
+            "id": "paid"
+        },
+        {
+            "id": "activities"
+        },
+        {
+            "id": "nursery"
+        },
+        {
+            "id": "higher"
+        },
+        {
+            "id": "internet"
+        },
+        {
+            "id": "romantic"
+        },
+        {
+            "id": "famrel"
+        },
+        {
+            "id": "freetime"
+        },
+        {
+            "id": "goout"
+        },
+        {
+            "id": "Dalc"
+        },
+        {
+            "id": "Walc"
+        },
+        {
+            "id": "health"
+        },
+        {
+            "id": "absences"
+        },
+        {
+            "id": "G1"
+        },
+        {
+            "id": "G2"
+        },
+        {
+            "id": "G3"
+        }
+    ],
+    "links": [
+        {
+            "origin": "learned",
+            "weight": 1.0400764355589922,
+            "source": "address",
+            "target": "absences",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 1.0062110897584102,
+            "source": "address",
+            "target": "G1",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.8398753558322547,
+            "source": "Pstatus",
+            "target": "famrel",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": -1.0538924674848074,
+            "source": "Pstatus",
+            "target": "absences",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 1.2594519367335184,
+            "source": "Pstatus",
+            "target": "G1",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.8637338906262979,
+            "source": "studytime",
+            "target": "G1",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.9395600012000431,
+            "source": "failures",
+            "target": "absences",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": -0.8012931759016444,
+            "source": "schoolsup",
+            "target": "G1",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": -1.053476226213003,
+            "source": "paid",
+            "target": "absences",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.9846603382062271,
+            "source": "higher",
+            "target": "Medu",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 2.6919413594193355,
+            "source": "higher",
+            "target": "G1",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.8369182153017912,
+            "source": "internet",
+            "target": "absences",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.8623564879614155,
+            "source": "Dalc",
+            "target": "Walc",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.889170862689624,
+            "source": "G1",
+            "target": "G2",
+            "type": "suit"
+        },
+        {
+            "origin": "learned",
+            "weight": 0.8846470024209571,
+            "source": "G2",
+            "target": "G3",
+            "type": "suit"
+        }
+    ]
+}

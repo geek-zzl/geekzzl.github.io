@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <title>Structure Model</title>
+</head>
+<body>
+
+<header>
+</header>
+
+<main>
+  <div id="button-container">
+    <div>
+      <label for="input-field" >添加节点:</label>
+      <input id="input-field" placeholder="请输入要添加的节点名称" type="text">
+      <button id="add-button">添加</button>
+    </div>
+    <div>
+      <label for="source-field">添加边  ：</label>
+      <input id="source-field" placeholder="源节点" type="text">
+      <!--    <label for="target-field"></label>-->
+      <input id="target-field" placeholder="目标节点" type="text">
+      <button id="add-link-button">添加</button>
+    </div>
+    <div>
+      <label for="source-field-del">删除边  ：</label>
+      <input id="source-field-del" placeholder="源节点" type="text">
+      <!--    <label for="target-field-del">目标节点:</label>-->
+      <input id="target-field-del" placeholder="目标节点" type="text">
+      <button id="del-link-button">删除</button>
+    </div>
+  </div>
+  <div id="svg-container">
+    <script src="draw.js"></script>
+    <script src="show.js"></script>
+  </div>
+
+</main>
+
+
+<footer>
+  <p> 因果分析可视化系统 </p>
+</footer>
+
+</body>
+</html>

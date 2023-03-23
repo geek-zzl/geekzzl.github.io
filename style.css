@@ -1,0 +1,68 @@
+/*.link {*/
+/*  fill: none;*/
+/*  stroke: #666;*/
+/*  stroke-width: 1.5px;*/
+/*}*/
+
+#svg-container {
+  float: left;
+  width: 70%;
+}
+
+/*#button-container {*/
+/*  float: right;*/
+/*  width: 30%;*/
+/*}*/
+#button-container {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 30%;
+  transform: translateY(-50%);
+}
+
+.link {
+  fill: none;
+  stroke: #CDCDCD;
+  stroke-width: 2.7px;
+  shape-rendering: crispEdges;
+}
+
+#licensing {
+  fill: green;
+}
+
+#suit {
+  fill: #BCBCBC;
+}
+
+.link.licensing {
+  stroke: green;
+}
+
+.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+
+circle {
+  fill: #FFC1CC;
+  //stroke: #000000;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 15px sans-serif;
+  pointer-events: none;
+  font-family:"Calibri";
+  font-size: 17px;
+  //font-weight: bold;
+
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
